@@ -3,7 +3,7 @@ import './HeroSection.scss'
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="../src/assests/beach.mp4" loop muted autoPlay></video>
+      <video src="assests/beach.mp4" loop muted autoPlay></video>
       <h1>ADVENTRUES IN BURMA</h1>
       <p>What are you waiting for?</p>
       <div className="hero-btns">
