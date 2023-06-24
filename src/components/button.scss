@@ -1,0 +1,38 @@
+.btn{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    transition: all 0.2s ease-out;
+}
+
+.btn--large{
+    padding: 14px 36px;
+    font-size: 1.5rem;
+
+}
+.btn--medium{
+    padding: 8px 20px;
+    font-size: 1.2rem;
+}
+
+.btn--outline{
+    background-color: transparent;
+    
+    color:  white;
+    
+    
+}
+.btn--primary{
+    background-color: white;
+    color:  #242424;
+    
+
+}
+
+.btn--large:hover, .btn--medium:hover{
+    background-color: white;
+    color: #242424;
+}

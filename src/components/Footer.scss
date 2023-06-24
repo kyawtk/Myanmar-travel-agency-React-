@@ -1,0 +1,109 @@
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    .newsLetter{
+        margin-top: 50px;
+        h1{
+            text-align: center;
+            max-width: 700px;
+            margin: 10px;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        form{
+            legend{
+                margin: 5px 20px;
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+            input{
+                margin: 10px
+            };
+            input[type=email]{
+                border-radius: 10px;
+                font-size: 1.5rem;
+                font-weight: bold;
+                color: #242424;
+                background-color: white;
+                padding: 10px 30px;
+                max-width: 300px;
+                border: none;
+                outline: none;
+
+            }
+            input[type=submit]{
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                background-color: orange;
+                color: white;
+                font-size: 1.2rem;
+                padding: 20px;
+            }
+            
+        }
+    }
+}
+
+.links{
+    div{
+        margin: 10px 30px;
+    }
+    width: 60%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    .links-header{
+         margin-bottom: 10px;
+         font-size: 1.5rem;
+    }
+    ul{
+        list-style: none;
+      
+        
+        li{
+            margin-bottom: 5px;
+            margin-left: -20px;
+            a{
+                color: white;
+                font-weight: bold;
+                
+            }:hover{
+                color: orange;
+            }
+           
+        }
+       
+    }
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 50px;
+}
+
+
+@media screen and (max-width:960px) {
+    .newsLetter{
+        
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        align-items: center;
+        }
+    }
+    .links{
+        width: 100%;
+        div{
+            width: 30%;
+        }
+        flex-wrap: wrap;
+    }
+}
